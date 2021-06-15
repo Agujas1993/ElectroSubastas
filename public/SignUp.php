@@ -8,25 +8,55 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/color.css">
     <link rel="stylesheet" href="/css/responsive.css">
+    <style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#ffff;
+}
+.box{
+    width:500px;
+    padding: 0px;
+    background-color:#fff;
+}
+
+img {
+            max-width: 235px;
+            max-height: 300px;
+        }
+</style>
     </head>
     <body>
-        <div class="theme-layout">
+    <div class="theme-layout">
             <div class="container-fluid pdng0">
                 <div class="row merged">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="login-reg-bg">
                             <div class="log-reg-area sign">
                             <h2 class="log-title" style="text-align: center;">Regístrate</h2>
-    
-    <form action="./register.php" method="POST" class="formulario__register">
-    <input type="email" placeholder="Usuario" name="user" required>
-    <input type="password" placeholder="Contraseña" name="password" required>
-    <button>Registrarse</button>
-    </form>
-   
-    <br>
-    <h4 class="log-title" style="text-align: right;">¿Ya tienes una cuenta?</h4>
-<h5><a href="login.php" class="forgot-pwd">Inicia Sesión</a></h5>
+                            <form action="./register.php" method="POST" class="formulario__register">
+                                <div class="form-group">
+                                </div>
+
+                                <div class="form-group">
+                                <input type="email" placeholder="Usuario" name="user" required>
+                                </div>
+                                <div class="form-group">
+                                <input type="password" placeholder="Contraseña" name="password" required>
+                                </div>
+                                
+                                <div class="submit-btns">
+                                <button style="margin:10px;">Registrarse</button>
+                                <h5 class="log-title" style="text-align: right;">¿Ya tienes una cuenta?</h5>
+                                <h5><a href="login.php" class="forgot-pwd">Inicia Sesión</a></h5>
+                    </div>
+                </div>
+            </div>
+       </div>
+  </div>
+</body>
+</html>
+  </form>
 </div>
 </div>
 </div>
