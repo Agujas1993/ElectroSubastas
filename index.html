@@ -10,11 +10,6 @@
     <link rel="stylesheet" href="/css/responsive.css">
     </head>
     <body>
-<script> 
-<!--
-window.location.replace('public/login.php'); 
-//-->
-</script>
         <div class="theme-layout">
             <div class="container-fluid pdng0">
                 <div class="row merged">
@@ -22,7 +17,7 @@ window.location.replace('public/login.php');
                         <div class="login-reg-bg">
                             <div class="log-reg-area sign">
                             <h2 class="log-title" style="text-align: center;">Iniciar Sesión</h2>
-                            <p>Todavía no usas nuestra web? <a href="public/login.php">Regístrate ya</a></p>
+                            <p>Todavía no usas nuestra web? <a href="src/Infraestructure/Views/home.php">Regístrate ya</a></p>
                             <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                                 <div class="form-group">
                                 <?php if(isset($mensaje)) {echo $mensaje;}?>
